@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/product.css">
-    <title>Personalizar Pastel</title>
+    <link rel="stylesheet" href="css/login.css">
+    <title>Log In</title>
 </head>
 <body>
     <header>
@@ -16,7 +16,7 @@
         <nav class="menu">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
+                <li><a href="index.html#products">Productos</a></li>
                 <li><a href="index.html#about">Acerca de</a></li>
                 <li><a href="index.html#contact">Contacto</a></li>
                 <li><a href="login.html">Log In</a></li>
@@ -25,12 +25,29 @@
     </header>
     <section id="home" class="banner">
         <div class="container-img">
-            <img src="img/pastelero.jpg" alt="">
+            <img src="img/login.jpg" alt="">
         </div>
         <div class="container">
-            <h1 class="title">Personaliza <br> Tu Pastel</h1>
-            <p class="subtitle">Escoge entre los diferentes ingredientes, adornos, sabores y topings para añadir a tu pastel</p>
-            <p class="subtitle">Completa cada uno de los apartados según tu gusto</p>
+            <div id="central">
+                <div id="login">
+                    <div class="titulo">
+                        Bienvenido
+                    </div>
+                    <form id="loginform" action="#" method="POST">
+                        <input type="text" name="usuario" placeholder="Usuario">    
+                        <input type="password" placeholder="Contraseña" name="password">   
+                        <a href="admin.html" class="submit">Login</a>
+                    </form>
+                    <div class="pie-form">
+                        <a href="#">¿Perdiste tu contraseña?</a>
+                        <a href="#">¿No tienes Cuenta? Registrate</a>
+                    </div>
+                </div>
+                <div class="inferior">
+                    <a href="index.html">Volver</a>
+                </div>
+            </div>
         </div>
     </section>
-    <section>
+</body>
+</html>

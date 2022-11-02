@@ -94,7 +94,7 @@ header.down{
 
 .container{
     position: relative;
-    width: 60%;
+    width: 65%;
     height: 100vh;
     float: right;
     background-color: var(--primary-color);
@@ -106,7 +106,7 @@ header.down{
 
 .container-img{
     position: relative;
-    width: 40%;
+    width: 35%;
     height: 100vh;
     float: left;
 }
@@ -116,20 +116,88 @@ header.down{
     height: 100%;
 }
 
-.title{
-    color: #fff;
-    font-size: 70px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    padding-bottom: 25px;
+#central {
+    max-width: 320px;
+    width: 100%;
 }
 
-.subtitle{
-    width: 50%;
+.titulo {
+    font-size: 250%;
+    color:#fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login {
+    width: 100%;
+    padding: 50px 30px;
+    background-color: var(--color-4);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    border-radius: 3px 3px 3px 3px;
+    box-sizing: border-box;
+}
+
+#login input {
+    font-size: 110%;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#login .submit {
+    display: block;
+    font-size: 20px;
+    color:#fff;
+    width: 100%;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: var(--color-1);
+    margin-top: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+#login .submit:hover {
+    background-color: var(--primary-color);
+}
+
+.pie-form {
+    font-size: 90%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
     color: var(--color-3);
-    font-weight: 500;
-    line-height: 1.2;
-    padding-bottom: 15px;
-    font-size: 18px;
-    letter-spacing: 1.2px;
+}
+
+.inferior {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+}
+
+.inferior a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.inferior a:hover {
+    color: var(--color-3);;
 }
