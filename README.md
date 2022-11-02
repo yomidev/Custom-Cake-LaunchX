@@ -15,11 +15,21 @@ usuario realizar la personalización de un pastel a su gusto; por lo tanto se el
 ### Logo y mensaje de la marca
 En cuanto al logo se opto por un diseño minimalita en el que se muestra un pequeño pastel y el nombre de la marca.
 El diseño se puede visualizar en la siguiente imagen:
-![Logo](https://github.com/yomidev/Custom-Cake-LaunchX/blob/main/img/logo.jpg?raw=true)
+- ![Logo](https://github.com/yomidev/Custom-Cake-LaunchX/blob/main/img/logo.jpg?raw=true)
 
 En cuanto al mensaje de la marca es el siguente:
 - Personaliza tu pastel
 - Escoge entre los diferentes ingredientes y crea el pastel perfecto. Nuestra producción es 100% artesanal.
 ### Paleta de colores
-La paleta de colores elegida es la siguiente:
+La paleta de colores elegida es la siguiente:  
+
 ![Paleta de Colores](https://github.com/yomidev/Custom-Cake-LaunchX/blob/main/img/custom%20cake.png?raw=true)
+
+## Tecnologías Utilizadas
+Las Tecnologías que se utilizaron para la realización de este proyecto fueron:
+- HTML
+- CSS
+
+## Despliegue
+El despliegue de este proyecto fue realizado a través de GitHub Pages en el siguiente enlace:
+- [Custom Cake](https://yomidev.github.io/Custom-Cake-LaunchX/)
